@@ -1,0 +1,117 @@
+body {
+}
+#container{ /*Container for the Game*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+	height: 18em;
+	background-color: #FAFAFA;
+	/*background-image: url('../Images/282044087.jpg');*/
+	background-position: center center;
+	box-shadow: 0 0.5em 0.5em #AAA;
+	background-repeat: no-repeat;
+	font-size: 3em;
+}
+#container>div{ /*Div Score Container, Controls Container & Queue Container*/
+	width: 30em;
+	float:left;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+#container>div>div{
+	/*background-color: #CCCCCC;*/
+	text-align: center;
+	opacity: 0.8;
+}
+#container>div:first-child>div{ /*Div Score Container*/
+	height: 3em;
+	width: 15em;
+	float: left;
+}
+/*
+#container>div:nth-child(2){
+	height: 36em;
+	background-color: #0c0;
+}
+*/
+#container>div:nth-child(2)>div{
+	width: 7em;
+	height: 11em;	
+}
+#container>div:nth-child(2)>div:first-child{
+	float: left;
+}
+#container>div:nth-child(2)>div:last-child{
+	float: right;
+}
+#container>div:last-child{
+	width: 30em;
+}
+#container>div:nth-child(2)>div:nth-child(2){
+	margin: 1em;
+	width: 14em;
+	height: 9em;
+	background-color: #999;
+	float:left;
+	box-shadow: 0 0.2em 0.5em #333333;	
+}
+#container>div:last-child>div{
+	height: 4em;
+	width: 15em;
+	float: left;
+	text-align: center;
+}
+
+#container>div:first-child>div>div{
+	margin: 0.5em;
+	height: 2em;
+	width: 14em;
+}
+
+#divHealthP1{background-color: #CC0000;box-shadow: 0 0 0.5em #333333;}
+#divHealthP2{color:#FFFFFF; background-color: #0000CC;box-shadow: 0 0 0.5em #333333;}
+
+/*Button Styles*/
+.divButton{
+	width: 3em;
+	height: 2em;
+	padding-top: 1em;
+	margin:0.5em auto 0.5em auto;
+	background-color: #CC0000;
+	box-shadow: 0.4em 0.4em 0.4em #000;
+	border-radius: 0.4em;
+	overflow-x: hidden;
+}
+.divButton:active{
+	-webkit-transform:translate(0.2em,0.2em); /* Safari and Chrome */
+	box-shadow: 0.2em 0.2em 0.4em #333;
+}
+	
+.divQueueP1 {
+	padding-top: 1em;
+	height: 1.5em;
+	width: 2em;
+	float:right;
+	background-color: #CC0000;
+	margin: 0.5em;
+	box-shadow: 0 0 0.5em #333333;
+}
+.divQueueP2 {
+	padding-top: 1em;
+	height: 1.5em;
+	width: 2em;
+	float:left;
+	background-color: #0000CC;
+	margin: 0.5em;
+	box-shadow: 0 0 0.5em #333333;
+}
+#countdown{
+	width: 14em;
+	background-color: #CC0000;
+	margin-left: auto;
+	margin-right:auto;
+	height:1em;	
+}
+
